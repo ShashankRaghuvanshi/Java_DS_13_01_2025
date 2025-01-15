@@ -22,8 +22,8 @@ public class StudentUse {
 //		System.out.println(s4.name);
 //		System.out.println(s4.getRollNumber());
 		
-		Student s5 = new Student("Shashank");
-		s5.print();
+//		Student s5 = new Student("Shashank");
+//		s5.print();
 		
 //		s1.name = "Ankush";
 //		s1.setRollNumber(-123);
