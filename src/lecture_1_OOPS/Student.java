@@ -5,6 +5,9 @@ public class Student {
 //	private int rollNumber;
 	private final int rollNumber;
 	
+//	static int numStudents;
+	private static int numStudents;
+	
 //	public Student() {
 //		//default constructor
 //	}
@@ -13,10 +16,19 @@ public class Student {
 //		rollNumber = 100;
 //	}
 	
+//	public void setnumStudents(int numStudents) {
+//		Student.numStudents = numStudents;
+//	}
+	
+	public static int getnumStudents() {
+		return numStudents;
+	}
+	
 	public Student(String name, int rollNumber) {
 		System.out.println(this);
 		this.name = name;
 		this.rollNumber = rollNumber;
+		numStudents++;
 	}
 	
 //	public Student(String n) {
@@ -40,6 +52,6 @@ public class Student {
 	}
 	
 	public void print() {
-		System.out.println(name +" "+":"+" "+rollNumber);
+		System.out.println(name +" "+":"+" "+rollNumber+" ");
 	}
 }

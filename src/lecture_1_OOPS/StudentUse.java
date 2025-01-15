@@ -19,6 +19,15 @@ public class StudentUse {
 		
 		Student s4 = new Student("Manisha", 121);
 		s4.print();
+		
+//		System.out.println(s3.numStudents);
+//		System.out.println(s4.numStudents);
+		
+//		System.out.println(Student.numStudents);
+//		Student.numStudents = 10;
+		
+		System.out.println(Student.getnumStudents());
+		
 //		System.out.println(s4.name);
 //		System.out.println(s4.getRollNumber());
 		
