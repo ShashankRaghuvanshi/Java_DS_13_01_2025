@@ -11,8 +11,10 @@ public class VehicleUse {
 		Car c = new Car();
 		c.numGears = 10;
 		c.color = "Black";
+		c.maxSpeed = 1000;
 		c.setMaxSpeed(100);
 		c.print();
+		c.printMaxSpeed();
 	}
 
 }
