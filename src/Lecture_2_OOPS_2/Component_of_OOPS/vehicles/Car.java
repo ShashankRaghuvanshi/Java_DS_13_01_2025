@@ -5,13 +5,18 @@ public class Car extends Vehicle {
 	boolean isConvertible;
 	int maxSpeed;
 	
+	public Car(int numGears) {
+		this.numGears = numGears;
+		System.out.println("Car constructor");
+	}
+	
 	public void print() {
 		
 		super.print();
 		
 //		System.out.println("Vehicle Color :" + color);
 //		System.out.println("Vehicle Speed :" + getMaxSpeed());
-		System.out.println("Vehicle Color :" + numGears);
+		System.out.println("Vehicle numGears :" + numGears);
 		System.out.println("Vehicle Speed :" + isConvertible);
 	}
 	
